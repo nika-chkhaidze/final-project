@@ -70,7 +70,7 @@
   }
 
 .sec-1{
-    margin-top: 3300px;
+    margin-top: 3820px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
@@ -108,7 +108,7 @@
 .info{
     display: flex;
     flex-direction: column;
-    margin-left: 850px;
+    margin-left: 950px;
 }
 
 .hp{
@@ -1058,6 +1058,7 @@ ul#move li:nth-child(5) {
 .container-1{
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .container{
@@ -1143,7 +1144,7 @@ ul#move li:nth-child(5) {
   display: grid;
   grid-template-areas: 
   "html css js"
-  "htmlcss htmljs boostrap";
+  "htmljs htmlcss boostrap";
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px;
 }
@@ -1170,9 +1171,24 @@ ul#move li:nth-child(5) {
 
 .hover{
   opacity: 0;
-  transition: ease-in 1s;
+  transition:ease-in-out 1s;
+  background-size: cover;
 }
 
 .hover:hover{
   opacity: 1;
+}
+
+.sec-6:first-child{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.sec-6 h1{
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  padding-bottom: 55px;
+  font-family: mythirdFont;
 }
