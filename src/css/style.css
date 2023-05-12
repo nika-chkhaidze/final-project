@@ -70,10 +70,11 @@
   }
 
 .sec-1{
-    margin-top: 1600px;
+    margin-top: 3300px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
+    max-width: 1920px;
 }
 
 .info-1{
@@ -82,7 +83,7 @@
 
 .progress-bar-1{
     position: absolute;
-    left: 1150px;
+    left: 1350px;
     margin-top: 250px;
 }
 
@@ -107,7 +108,7 @@
 .info{
     display: flex;
     flex-direction: column;
-    margin-left: 750px;
+    margin-left: 850px;
 }
 
 .hp{
@@ -119,7 +120,7 @@
 	width: 100%;
 	overflow: hidden;
     z-index: -1;
-    width: 1660px;
+    width: 1960px;
     height: 300px;
 }
 
@@ -437,18 +438,20 @@ ul#move li:nth-child(5) {
   }
 
   .phone-img{
-    padding: 30px;
+    padding: 31.5px 33.5px;
+    max-height: 90px;
   }
 
   .phone-img-div{
     border:#fff dashed;
-    border-radius: 50px;
+    border-radius: 55px;
   }
 
   .phone-img-div:hover{
     background-color: #E93656;
     border: none;
-    border-radius: 50px;
+    border-radius: 55px;
+    transition: ease-out 1s;
   }
 
   .address{
@@ -464,8 +467,9 @@ ul#move li:nth-child(5) {
   }
 
   .address-img{
-    padding: 30px 35px;
+    padding: 32px 35px 5px 35px;
     max-height: 90px;
+    max-width: 120px;
   }
 
   .address-img-div{
@@ -477,6 +481,7 @@ ul#move li:nth-child(5) {
     background-color: #E93656;
     border: none;
     border-radius: 55px;
+    transition: ease-out 1s;
   }
 
   .address-text p{
@@ -496,7 +501,7 @@ ul#move li:nth-child(5) {
   }
 
   .email-img{
-    padding: 35px 30px 30px 30px;
+    padding: 34px 34px;
     max-height: 90px;
   }
 
@@ -508,8 +513,12 @@ ul#move li:nth-child(5) {
   .email-img-div:hover{
     background-color: #E93656;
     border: none;
-    border-radius: 55ხpx;
+    border-radius: 55px;
+    transition: ease-in;
+    transform: none 0.5s;
   }
+
+
 
   .email-text p{
     max-width: 200px;
@@ -887,11 +896,11 @@ ul#move li:nth-child(5) {
   transition: transform 0.5s;
 }
 
-.back-ground-div{
-  min-width: 1692px;
-  width: 100%;
-  min-height: 570px;
-  margin-top: 160px;
+.sec-5{
+  max-width: 1692px;
+  max-height: 570px;
+  padding-top: 144px;
+  margin-bottom: 650px;
 }
 
 .nika-chkhaidze{
@@ -913,13 +922,12 @@ ul#move li:nth-child(5) {
 .slider, .slider .imgs {
   width: 100%;
   height: 100%;
-  max-height: 700px;
+  max-height: 570px;
 }
 
 .slider {
   height:100%;
-  max-height: 700px;
-  padding-top: 500px;
+  max-height: 570px;
 }
 
 .slider .imgs {
@@ -935,8 +943,6 @@ ul#move li:nth-child(5) {
   justify-content: center;
   position: absolute;
   left: 100%;
-  /* animation duration can't be greater than variable interval in JS! */
-  /* check JS for other settings */
   animation: .6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s left;
   animation-fill-mode: forwards;
   background-size: cover !important;
@@ -956,7 +962,7 @@ ul#move li:nth-child(5) {
 .dots {
   position: absolute;
   left: 1500px;
-  bottom: -2435px;
+  bottom: -2330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1042,4 +1048,131 @@ ul#move li:nth-child(5) {
   display: flex;
   align-items: center;
   margin: auto;
+}
+
+.sec-6{
+  margin-top: 500px;
+  padding-bottom: 170px;
+}
+
+.container-1{
+  display: flex;
+  gap: 30px;
+}
+
+.container{
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  text-align: center;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 20px 71px 5px 59px;
+  background-color: #131A36;
+  cursor: pointer;
+  color: #fff;
+}
+
+#myBtnContainer{
+   display: flex;
+   flex-direction: column;
+   max-width: fit-content;
+   align-items: flex-start;
+   background-color: #131A36;
+   max-width: 240px;
+   max-height: 401px;
+}
+
+#myBtnContainer :nth-child(1){
+  padding-top: 72px;
+}
+
+#myBtnContainer :nth-child(7){
+  padding-bottom: 59px;
+}
+
+.container{
+  display: flex;
+}
+
+.btn:hover {
+  color: #E93656;
+}
+
+.btn.active {
+  color:#E93656;
+}
+
+.html{
+  background-color: #555555;
+}
+
+.css{
+  background-color: #000000;
+}
+
+.js{
+  background-color: #555555;
+}
+
+.htmlcss{
+  background-color: #848484;
+}
+
+.htmljs{
+  background-color: #555555;
+}
+
+.boostrap{
+  background-color: #848484;
+}
+
+.container{
+  display: grid;
+  grid-template-areas: 
+  "html css js"
+  "htmlcss htmljs boostrap";
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 350px 350px;
+}
+
+.heart{
+  margin: auto;
+  margin-top: 105px;
+  border: solid #E93656;
+  border-radius: 50%;
+  padding: 19px 18px;
+  min-height: 12px;
+  min-width: 14px;
+}
+
+.hover h6{
+  color: #DDDDDD;
+  font-family: mysecoundFont;
+}
+
+.hover h3{
+  color: #fff;
+  padding-top: 7px;
+}
+
+.hover{
+  opacity: 0;
+  transition: ease-in 1s;
+}
+
+.hover:hover{
+  opacity: 1;
 }
