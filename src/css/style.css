@@ -33,8 +33,6 @@
     font-family: myfourthFont;
     src: url(/src/fonts/Roboto-Light.ttf);
   }
-
-
   
   .pt-1 :first-child,
   .pt-2 :first-child,
@@ -70,7 +68,7 @@
   }
 
 .sec-1{
-    margin-top: 3820px;
+    margin-top: 4400px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
@@ -1192,3 +1190,51 @@ ul#move li:nth-child(5) {
   padding-bottom: 55px;
   font-family: mythirdFont;
 }
+
+.sec-7{
+  display: flex;
+  flex-direction: column;
+  max-width: 1368px;
+}
+
+.d1 img{
+  width: 100px;
+  padding-bottom: 64px;
+  padding-top: 79px;
+}
+
+.d1{
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 24px; 
+  padding-right: 103px;
+  padding-bottom: 139px;
+}
+
+.article-1{
+  display: flex;
+  font-family: mythirdFont;
+}
+
+.article-1 p{
+  opacity: 0.5;
+  max-width: 569px;
+}
+
+.date{
+  background-color:#131A36;
+  min-width: 123px;
+}
+
+.date h1{
+  rotate: 270deg;
+  margin-top: 300px;
+  color: #E93656;
+}
+
+
+
+
+
