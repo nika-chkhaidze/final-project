@@ -1194,7 +1194,8 @@ ul#move li:nth-child(5) {
 .sec-7{
   display: flex;
   flex-direction: column;
-  max-width: 1368px;
+  max-width: 1468px;
+  margin-left: 220px;
 }
 
 .d1 img{
@@ -1208,6 +1209,7 @@ ul#move li:nth-child(5) {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 590px;
   padding-left: 24px; 
   padding-right: 103px;
   padding-bottom: 139px;
@@ -1220,12 +1222,13 @@ ul#move li:nth-child(5) {
 
 .article-1 p{
   opacity: 0.5;
-  max-width: 569px;
+  max-width: 1029px;
 }
 
 .date{
   background-color:#131A36;
-  min-width: 123px;
+  min-width: 153px;
+  height: 590px;
 }
 
 .date h1{
@@ -1234,6 +1237,33 @@ ul#move li:nth-child(5) {
   color: #E93656;
 }
 
+.title{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.title h1{
+  font-size: 3em;
+  font-family: mythirdFont;
+  color: #2E2E2E;
+}
+
+.title h6{
+  margin: auto;
+  color: #2ED279;
+}
+
+.image-div{
+  background-color: #E1E0DC;
+  width:950px;
+  height: 590px;
+}
+
+.title h1{
+  padding-bottom: 70px;
+  padding-top: 5px;
+}
 
 
 
