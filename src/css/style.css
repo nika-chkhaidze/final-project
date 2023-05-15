@@ -68,7 +68,7 @@
   }
 
 .sec-1{
-    margin-top: 4400px;
+    margin-top: 4680px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
@@ -82,7 +82,7 @@
 .progress-bar-1{
     position: absolute;
     left: 1350px;
-    margin-top: 250px;
+    margin-top: 180px;
 }
 
 .progress-bar-1 :first-child{
@@ -635,7 +635,7 @@ ul#move li:nth-child(5) {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
   }
 
   .img-title{
@@ -676,7 +676,7 @@ ul#move li:nth-child(5) {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
   }
 
   .img-title-1{
@@ -716,7 +716,7 @@ ul#move li:nth-child(5) {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .img-title-2{
@@ -756,7 +756,7 @@ ul#move li:nth-child(5) {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .img-title-4{
@@ -796,7 +796,7 @@ ul#move li:nth-child(5) {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .img-title-5{
@@ -836,7 +836,7 @@ ul#move li:nth-child(5) {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .img-title-6{
@@ -876,7 +876,7 @@ ul#move li:nth-child(5) {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .img-title-7{
@@ -918,13 +918,10 @@ ul#move li:nth-child(5) {
 }
 
 .slider, .slider .imgs {
-  width: 100%;
-  height: 100%;
   max-height: 570px;
 }
 
 .slider {
-  height:100%;
   max-height: 570px;
 }
 
@@ -935,6 +932,7 @@ ul#move li:nth-child(5) {
 
 .slider .img {
   min-width: 100%;
+  max-height: 570px;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -960,7 +958,7 @@ ul#move li:nth-child(5) {
 .dots {
   position: absolute;
   left: 1500px;
-  bottom: -2330px;
+  bottom: -1850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1194,8 +1192,7 @@ ul#move li:nth-child(5) {
 .sec-7{
   display: flex;
   flex-direction: column;
-  max-width: 1468px;
-  margin-left: 220px;
+  max-width: 1768px;
 }
 
 .d1 img{
@@ -1211,6 +1208,7 @@ ul#move li:nth-child(5) {
   gap: 20px;
   height: 590px;
   padding-left: 24px; 
+  min-width: 650px;
   padding-right: 103px;
   padding-bottom: 139px;
 }
@@ -1218,16 +1216,21 @@ ul#move li:nth-child(5) {
 .article-1{
   display: flex;
   font-family: mythirdFont;
+  margin-left: 220px;
+  max-width: 1870px;
 }
 
-.article-1 p{
+.article-1 p,
+.article-2 p,
+.article-1 h5,
+.article-2 h5{
   opacity: 0.5;
   max-width: 1029px;
 }
 
 .date{
   background-color:#131A36;
-  min-width: 153px;
+  min-width: 123px;
   height: 590px;
 }
 
@@ -1244,7 +1247,7 @@ ul#move li:nth-child(5) {
 }
 
 .title h1{
-  font-size: 3em;
+  font-size: 4em;
   font-family: mythirdFont;
   color: #2E2E2E;
 }
@@ -1256,7 +1259,7 @@ ul#move li:nth-child(5) {
 
 .image-div{
   background-color: #E1E0DC;
-  width:950px;
+  min-width:747px;
   height: 590px;
 }
 
@@ -1265,6 +1268,82 @@ ul#move li:nth-child(5) {
   padding-top: 5px;
 }
 
+.abt-me{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.abt-me :nth-child(2){
+  padding-right: 30px;
+  position: absolute;
+  font-size: 8em;
+  font-family: myfifthFont;
+  color: #1C1C1C;
+}
+
+.abt-me :nth-child(1){
+  position: relative;
+  padding-top: 60px;
+  color: #373737;
+  z-index: 1;
+}
+
+@font-face{
+  font-family: myfifthFont;
+  src: url(/src/fonts/Poppins-ExtraBold.ttf);
+}
+
+.article-2{
+  display: flex;
+  font-family: mythirdFont;
+}
+
+.date-2{
+  min-width: 123px;
+  max-height: 590px;
+  background-color: #131A36;
+  color: #fff;
+}
+
+.date-2 h1{
+  rotate: 270deg;
+  margin-top: 300px;
+  color: #E93656;
+}
+
+.image-div-1{
+  background-color: #E1E0DC;
+  min-width: 647px;
+  max-height: 590px;
+}
+.test-img{
+  min-width: 747px;
+  min-height: 592px;
+}
+
+.d2{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 590px;
+    padding-right: 24px; 
+    max-width: 800px;
+    padding-left: 103px;
+    padding-bottom: 139px;
+}
+
+.d2 img{
+  max-width: 100px;
+  padding-bottom: 64px;
+  padding-top: 79px;
+}
+
+.article-2 p{
+  max-width: 550px; 
+}
 
 
 
