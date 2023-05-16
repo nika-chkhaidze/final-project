@@ -954,7 +954,7 @@ ul#move li:nth-child(5) {
 .dots {
   position: absolute;
   left: 1500px;
-  bottom: -2180px;
+  bottom: -1950px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1368,4 +1368,108 @@ ul#move li:nth-child(5) {
 
 .Roca h4{
    color: #B3B3B3;
+}
+
+.sponsors{
+  display: flex;
+  gap: 65px;
+}
+
+.title-1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 169px;
+}
+
+.title-1 h1{
+  font-size: 4em;
+  font-family: mythirdFont;
+  color: #2E2E2E;
+  margin: auto;
+  padding-bottom: 81px;
+}
+
+.title-1 h6{
+  margin: auto;
+  color: #2ED279;
+}
+
+.overlay-text{
+  opacity: 0;
+  width: 230px;
+  height: 190px;
+  padding:33px 33px;
+  position: relative;
+  font-family: mythirdFont ;
+  transition: ease-out  0.5s;
+}
+
+.overlay-text:hover{
+  opacity: 1;
+  background-color: #fff;
+  border: solid 5px  #E93656;
+  transition: ease-in-out  0.5s;
+}
+
+.sponsor img{
+  position: absolute;
+  top:6820px;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.sponsors :nth-child(2) img{
+  position: absolute;
+  top:6790px;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.sponsors :nth-child(3) img{
+  position: absolute;
+  top:6840px;
+  left: 800px;
+  max-width: 100px;
+  max-height: 90px;
+}
+
+.sponsors :nth-child(4) img{
+  position: absolute;
+  top: 6805px;
+  left: 1070px;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+.sponsors :nth-child(5) img{
+  position: absolute;
+  top:6840px;
+  left: 1375px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.sponsor h1{
+    padding-left: 30px;
+}
+
+.sponsors :nth-child(2) h1{
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.sponsors :nth-child(3) h1{
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+.sponsors :nth-child(4) h1{
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.sponsors :nth-child(5) h1{
+  padding-left: 55px;
+  padding-top: 5px;
 }
