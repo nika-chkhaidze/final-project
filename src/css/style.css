@@ -1414,21 +1414,21 @@ ul#move li:nth-child(5) {
 
 .sponsor img{
   position: absolute;
-  top:6820px;
+  top:6350px;
   max-width: 220px;
   max-height: 220px;
 }
 
 .sponsors :nth-child(2) img{
   position: absolute;
-  top:6790px;
+  top:6320px;
   max-width: 220px;
   max-height: 220px;
 }
 
 .sponsors :nth-child(3) img{
   position: absolute;
-  top:6840px;
+  top:6380px;
   left: 800px;
   max-width: 100px;
   max-height: 90px;
@@ -1436,7 +1436,7 @@ ul#move li:nth-child(5) {
 
 .sponsors :nth-child(4) img{
   position: absolute;
-  top: 6805px;
+  top: 6350px;
   left: 1070px;
   max-width: 170px;
   max-height: 170px;
@@ -1444,7 +1444,7 @@ ul#move li:nth-child(5) {
 
 .sponsors :nth-child(5) img{
   position: absolute;
-  top:6840px;
+  top:6380px;
   left: 1390px;
   max-width: 100px;
   max-height: 100px;
@@ -1473,3 +1473,82 @@ ul#move li:nth-child(5) {
   padding-left: 55px;
   padding-top: 5px;
 }
+
+@font-face{
+  font-family: mysixthfont;
+  src: url(/src/fonts/Jaapokki-Regular.ttf);
+}
+
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 152px;
+}
+
+.contact-us h1{
+  font-size: 3em;
+  font-family: mysixthfont;
+  margin: auto;
+  color: #fff;
+}
+
+.contact-us p{
+  font-family: myfourthFont;
+  font-size: 1.1em;
+  margin: auto;
+  color: #fff;
+  padding-bottom: 46px;
+}
+
+.sec-9{
+  margin-top: 185px;
+  padding-top: 20px;
+}
+
+.form{
+  background: linear-gradient(rgba(8, 8, 8, 0.7),
+  rgba(29, 28, 28, 0.6)), url('/src/images/map.jpg');
+  min-width: 1920px;
+  width: 100%;
+}
+
+.form-1{
+  display:grid;
+  justify-content: center;
+  margin: auto;
+  grid-template-areas: 
+  "yourname emailadress yourwebsite"
+  "message message message"
+  "message message message"
+  "noting button nothing";
+  grid-template-rows: 50px 110px 50px;
+  grid-template-columns: 290px 290px 290px;
+  gap: 10px;
+  max-width: fit-content;
+}
+
+input{
+  font-family: myseventhfont;
+}
+
+@font-face{
+  font-family: myseventhfont;
+  src: url(/src/fonts/Poppins-SemiBold.woff);
+}
+
+.form-1 :nth-child(4){
+  grid-area: message;
+}
+
+.form-1 button{
+  background:transparent;
+  border: solid 3px #E93656;
+  padding:17px 46px;
+  color: #E93656;
+  font-family: mythirdFont;
+  margin-bottom: 120px;
+  margin-top: 30px;
+  grid-area: button;
+}
+
