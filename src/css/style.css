@@ -68,7 +68,7 @@
   }
 
 .sec-1{
-    margin-top: 7770px;
+    margin-top: 8250px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
@@ -1554,3 +1554,66 @@ input{
   grid-area: button;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #282828;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.f-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 111px;
+}
+
+.f-text:first-child :nth-child(1){
+  color: #fff;
+  font-family: myseventhfont;
+  font-size: 5em;
+}
+
+.f-text:first-child :nth-child(2){
+  color: #E93656;
+  font-family: myseventhfont;
+  font-size: 5em;
+}
+
+.p{
+  font-size: 1em;
+  display: flex;
+  max-width: 613px;
+  margin: auto;
+  color: #A5A5A5;
+}
+
+@font-face{
+  font-family: myseventhfont;
+  src: url(/src/fonts/Poppins-ExtraBold.ttf);
+}
+
+.links img{
+  max-width: 30px;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 20px;
+}
+
+.copy-right{
+  display: flex;
+  color: #adabab;
+  margin: auto;
+  background-color: #171717;
+  max-width: 1920px;
+  width: 100%;
+  justify-content: center;
+  min-height: 82px;
+  align-items: center;
+  margin-top: 57px;
+}
