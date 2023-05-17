@@ -68,7 +68,7 @@
   }
 
 .sec-1{
-    margin-top: 5870px;
+    margin-top: 7770px;
     align-items: center;
     min-height: 860px;
     background: #DDDDDD;
@@ -81,7 +81,7 @@
 
 .progress-bar-1{
     position: absolute;
-    left: 1350px;
+    left: 1400px;
     margin-top: 280px;
 }
 
@@ -102,7 +102,7 @@
 .info{
     display: flex;
     flex-direction: column;
-    margin-left: 950px;
+    margin-left: 1000px;
 }
 
 .hp{
@@ -202,6 +202,8 @@ ul#move li:nth-child(5) {
     background-color: #fff;
     max-width: 1920px;
     width: 100%;
+    min-height: 803px;
+    align-items: center;
 }
 
 .about-me {
@@ -209,7 +211,7 @@ ul#move li:nth-child(5) {
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
-    max-width: 1000px;
+    max-width: 800px;
     padding-left: 300px;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -954,7 +956,7 @@ ul#move li:nth-child(5) {
 .dots {
   position: absolute;
   left: 1500px;
-  bottom: -1950px;
+  bottom: -2560px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1272,7 +1274,7 @@ ul#move li:nth-child(5) {
 }
 
 .abt-me :nth-child(2){
-  top: -130px;
+  top: -145px;
   padding-right: 30px;
   font-size: 8em;
   font-family: myfifthFont;
@@ -1351,7 +1353,7 @@ ul#move li:nth-child(5) {
 
 .Roca{
   margin-left: 152px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .Roca :first-child{
@@ -1414,21 +1416,21 @@ ul#move li:nth-child(5) {
 
 .sponsor img{
   position: absolute;
-  top:6350px;
+  top:7470px;
   max-width: 220px;
   max-height: 220px;
 }
 
 .sponsors :nth-child(2) img{
   position: absolute;
-  top:6320px;
+  top:7440px;
   max-width: 220px;
   max-height: 220px;
 }
 
 .sponsors :nth-child(3) img{
   position: absolute;
-  top:6380px;
+  top: 7500px;
   left: 800px;
   max-width: 100px;
   max-height: 90px;
@@ -1436,7 +1438,7 @@ ul#move li:nth-child(5) {
 
 .sponsors :nth-child(4) img{
   position: absolute;
-  top: 6350px;
+  top: 7470px;
   left: 1070px;
   max-width: 170px;
   max-height: 170px;
@@ -1444,7 +1446,7 @@ ul#move li:nth-child(5) {
 
 .sponsors :nth-child(5) img{
   position: absolute;
-  top:6380px;
+  top: 7500px;
   left: 1390px;
   max-width: 100px;
   max-height: 100px;
@@ -1543,7 +1545,7 @@ input{
 
 .form-1 button{
   background:transparent;
-  border: solid 3px #E93656;
+  border: solid 2px #E93656;
   padding:17px 46px;
   color: #E93656;
   font-family: mythirdFont;
