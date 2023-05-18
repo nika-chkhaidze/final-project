@@ -9,7 +9,7 @@ window.onload = function() {
     let time = 5000;
     let dot;
 
-    line.style.animation = 'line ' + (time / 500) + 's linear infinite';
+    line.style.animation = 'line ' + (time / 5000) + 's linear infinite';
 
     function moveUP() {
 
@@ -205,4 +205,25 @@ observer.observe( element );
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
     });
-  }
+  };
+
+  //form
+
+  const formEL = document.querySelector('.form-1');
+
+  formEL.addEventListener('submit', event => {
+
+       event.preventDefault();
+
+       const formData = new FormData(formEL);
+       const data = Object.fromEntries(formData);
+
+       fetch('https://reqres.in/api/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(data)
+       }).then(res => res.json())
+         .then(data => console.log(data));
+  });
