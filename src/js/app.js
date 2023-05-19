@@ -63,12 +63,32 @@ window.onload = function() {
 }
 
 
-const element = document.querySelector('.progress-value-1');
-const observer = new IntersectionObserver(entries => {
-  element.classList.toggle('progress-value-1', entries[0].isIntersecting );
-});
+// const element = document.querySelector('.progress-value-1');
+// const observer = new IntersectionObserver(entries => {
+//   element.classList.toggle('progress-value-1', entries[0].isIntersecting );
+// });
 
-observer.observe( element );
+// observer.observe( element );
+
+//progress bar//
+
+var conteiner = document.querySelector('.conteiner'),
+bar = document.querySelectorAll('.conteiner .bar');
+
+window.addEventListener('scroll', function(){
+  
+   const conteinerSection = conteiner.getBoundingClientRect().top;
+      if(window.innerHeight > conteinerSection){
+        bar.forEach((bar)=>{
+          const barWidth = bar.dataset.bar ;
+          bar.style.width= `${barWidth}%`
+        })
+      }else{
+        bar.forEach((bar)=>{
+          bar.style.width = "0"
+        })
+      }
+})
 
 
 {
@@ -218,7 +238,7 @@ observer.observe( element );
        const formData = new FormData(formEL);
        const data = Object.fromEntries(formData);
 
-       fetch('https://reqres.in/api/users', {
+       fetch('https://borjomi.loremipsum.ge/api/send-message', {
         method: 'POST',
         headers: {
           'Content-Type' : 'application/json'

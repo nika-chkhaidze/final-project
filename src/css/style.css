@@ -219,89 +219,55 @@ ul#move li:nth-child(5) {
     padding-bottom: 20px;
 }
 
-.progress-1 {
-    background: #F0F0F0;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    display: flex;
-    height: 6px;
-    width: 330px;
-  }
-  
-  .progress-value-1 {
-    animation: load1 3s normal forwards;
-    box-shadow: 0 10px 40px -10px #fff;
-    background: #E93656;
-    height: 6px;
-    width: 0;
-  }
-  
-  @keyframes load1{
-    0% { width: 0; }
-    100% { width: 100%; }
-  }
+/* scroll bar */
+
+.conteiner{
+  position: relative;
+}
+
+.conteiner .progres{
+  position: relative;
+  width: 100%;
+  width: 300px;
+  height: 9px;
+  background-color: #848484;
+  margin-top: 50px;
+}
+
+.conteiner .progres .bar{
+  width: 0%;
+  background-color: #E93656;
+  height: 100%;
+  transition: all 1s;
+}
+
+.conteiner .progres span{
+  position: absolute;
+  bottom: 12px;
+}
 
 
-  .progress-2 {
-    background: #F0F0F0;
-    align-items: center;
-    position: relative;
-    display: flex;
-    height: 6px;
-    width: 330px;
-  }
-  
-  .progress-value-2 {
-    animation: load2 3s normal forwards;
-    box-shadow: 0 10px 40px -10px #fff;
-    background: #E93656;
-    height: 6px;
-    width: 0;
-  }
-  
-  @keyframes load2 {
-    0% { width: 0; }
-    100% { width: 80%; }
-  }
+.progres :nth-child(3){
+  right: 240px; 
+  font-family: mythirdFont;
+}
 
-  .progress-3 {
-    background: #F0F0F0;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    display: flex;
-    height: 6px;
-    width: 330px;
-  }
-  
-  .progress-value-3 {
-    animation: load3 3s normal forwards;
-    box-shadow: 0 10px 40px -10px;
-    background: #E93656;
-    height: 6px;
-    width: 0;
-  }
-  
-  @keyframes load3 {
-    0% { width: 0; }
-    100% { width: 50%; }
-  }
+.conteiner :nth-child(1) :nth-child(3){
+  position: absolute;
+  right: 200px;
+  font-family: mythirdFont;
+}
 
-  .pt-1,
-  .pt-2,
-  .pt-3{
-    display: flex;
-    gap: 10px;
-  }
+.conteiner :nth-child(2) :nth-child(3){
+  position: absolute;
+  right: 225px;
+  font-family: mythirdFont;
+}
 
-  .progress-bars{
-    padding-right:205px;
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
+.flex{
+  display: flex;
+  flex-direction: column;
+}
 
   .img-nc{
     padding-right: 71px;
@@ -442,14 +408,14 @@ ul#move li:nth-child(5) {
 
   .phone-img-div{
     border:#fff dashed;
-    border-radius: 55px;
+    border-radius: 50%;
   }
 
   .phone-img-div:hover{
     background-color: #E93656;
     border: none;
-    border-radius: 55px;
-    transition: ease-out 1s;
+    border-radius: 50%;
+    transition: all 1s;
   }
 
   .address{
@@ -472,14 +438,14 @@ ul#move li:nth-child(5) {
 
   .address-img-div{
     border:#fff dashed;
-    border-radius: 55px;
+    border-radius: 50%;
   }
 
   .address-img-div:hover{
     background-color: #E93656;
     border: none;
-    border-radius: 55px;
-    transition: ease-out 1s;
+    border-radius: 50%;
+    transition: all 1s;
   }
 
   .address-text p{
@@ -499,21 +465,20 @@ ul#move li:nth-child(5) {
   }
 
   .email-img{
-    padding: 34px 34px;
+    padding: 34px 32px;
     max-height: 90px;
   }
 
   .email-img-div{
     border:#fff dashed;
-    border-radius: 55px;;
+    border-radius: 50%;
   }
 
   .email-img-div:hover{
     background-color: #E93656;
     border: none;
-    border-radius: 55px;
-    transition: ease-in;
-    transform: none 0.5s;
+    border-radius: 50%;
+    transition: all 1s;
   }
 
 
@@ -1441,7 +1406,7 @@ ul#move li:nth-child(5) {
 .sponsors :nth-child(4) img{
   position: absolute;
   top: 7470px;
-  left: 1070px;
+  left: 1060px;
   max-width: 170px;
   max-height: 170px;
 }
@@ -1449,7 +1414,7 @@ ul#move li:nth-child(5) {
 .sponsors :nth-child(5) img{
   position: absolute;
   top: 7500px;
-  left: 1390px;
+  left: 1380px;
   max-width: 100px;
   max-height: 100px;
 }
