@@ -1553,7 +1553,7 @@ footer{
   display: flex;
   max-width: 613px;
   margin: auto;
-  color: #A5A5A5;
+  color: #F0F0F0;
 }
 
 @font-face{
@@ -1587,3 +1587,56 @@ footer{
 
 /* media querys */
 
+@media screen and (width < 320px) {
+     
+    .sec-1{
+      max-width: 320px;
+      width: 100%;
+    }
+
+    .abt-me{
+      position: relative;
+      font-size: .5em;
+      right: -400px;
+    }
+
+    .abt-me :nth-child(2){
+      top: -80px;
+      right: -15px;
+    }
+
+    .abt-me :nth-child(1){
+      top: -28px;
+    }
+
+    .info{
+      font-size: 1em;
+      margin-left: 200px;
+    }
+
+    .Roca div{
+      justify-content: center;
+      position: relative;
+      top: 30px;
+      right: 150px;
+    }
+
+    .Roca h4{
+      justify-content: center;
+      position: relative;
+      top: 30px;
+      right: 120px;
+    }
+
+    .Roca h1{
+      color: #000000;
+    }
+
+    .progress-bar-1{
+        position: relative;
+        margin-top: 100px;
+        left: 120px;
+        justify-content: center;
+    }
+
+}
