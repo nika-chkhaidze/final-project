@@ -135,7 +135,7 @@
 	bottom: 0;
 	color: white;
 	font-weight: 700;
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #slider #forword {
@@ -1588,16 +1588,25 @@ footer{
 /* media querys */
 
 @media screen and (width < 320px) {
+
+    body{
+      overflow: hidden;
+      max-width: 319px;
+      width: 100%;
+    }
      
     .sec-1{
-      max-width: 320px;
+      max-width: 319px;
       width: 100%;
+      padding-top: 900px;
+      padding-bottom: 600px;
     }
 
     .abt-me{
       position: relative;
       font-size: .5em;
-      right: -400px;
+      right: -140px;
+      top: -10px;
     }
 
     .abt-me :nth-child(2){
@@ -1610,33 +1619,182 @@ footer{
     }
 
     .info{
-      font-size: 1em;
-      margin-left: 200px;
+      font-size: .8em;
+      margin-left: 40px;
+    }
+
+    .social{
+      padding-top: 10px;
+    }
+
+    .sec-1 h1{
+      font-size: 2.7em;
+      padding: 10px 0;
     }
 
     .Roca div{
       justify-content: center;
       position: relative;
       top: 30px;
-      right: 150px;
+      right: 180px;
     }
 
     .Roca h4{
       justify-content: center;
       position: relative;
-      top: 30px;
-      right: 120px;
+      top: 15px;
+      right: 150px;
     }
 
     .Roca h1{
       color: #000000;
+      font-size: 2.5em;
+    }
+
+    .Roca h4{
+      font-size: 1em;
     }
 
     .progress-bar-1{
         position: relative;
         margin-top: 100px;
-        left: 120px;
+        left: 10px;
         justify-content: center;
     }
 
-}
+    .progress{
+      width: 300px;
+    }
+
+    .about-me{
+      padding-left: 60px;
+      justify-content: center;
+      padding-bottom: 0;
+    }
+
+    .sec-2{
+      flex-direction: column;
+      max-width: 319px;
+      width: 100%;
+      min-height: 900px;
+    }
+
+    .hm{
+      padding: 13px 89px 10px 82px;
+    }
+
+    .about-me h4{
+      padding-right: 50px;
+      font-family: mythirdFont;
+    }
+
+    .about-me h1{
+      padding-right: 20px;
+      font-family: mythirdFont;
+    }
+
+    .social-pages{
+      margin-top: 0;
+      justify-content: center;
+    }
+
+    .sec-3{
+      margin-top: 150px;
+      width: 323px;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .address-img{
+      padding: 32px 35px 30px 35px;
+    }
+    
+    .phone{
+      gap: 15px;
+      justify-content: center;
+      padding-right: 22px;
+    }
+
+    .address{
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .email{
+      gap: 3px;
+      justify-content: center;
+    }
+
+    .bar span{
+      font-family: mythirdFont;
+    }
+
+    .sec-4{
+      display: grid;
+      grid-template-columns: 319px;
+      grid-template-rows: 319px 319px 319px 319px;
+      grid-template-areas: 
+      "grid-1"
+      "grid-2"
+      "grid-3"
+      "grid-4";    
+      padding-left: 40px;
+    }
+
+    .grid-5,
+    .grid-6,
+    .grid-7,
+    .grid-8{
+      display: none;
+    }
+
+    .advisor-img{
+      border-radius: 50%;
+      max-height: 5px;
+      max-width: 5px;
+    }
+
+    .part-1{
+      flex-direction: column;
+      max-width: fit-content;
+      position: absolute;
+      right: -10px;
+    }
+
+    .part-1, .img span {
+      display: flex;
+      gap: 15px;
+  }
+
+  .part-1 p{
+    padding-left: 1px;
+    width: 400px;
+  }
+
+  .part-2{
+    margin-top: 120px;
+    margin-left: 175px;
+  }
+
+  .dots{
+    bottom: unset;
+    left: 10px;
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .dot{
+    width: 50px;
+  }
+
+  .slider .img {
+    animation: .3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s left;
+    overflow: hidden;
+  }
+
+  .slider{
+    width: 319px;
+  }
+
+  }
