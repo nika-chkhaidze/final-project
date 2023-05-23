@@ -1590,7 +1590,7 @@ footer{
 @media screen and (width < 320px) {
 
     body{
-      overflow: hidden;
+      overflow-x: hidden;
       max-width: 319px;
       width: 100%;
     }
@@ -1598,8 +1598,8 @@ footer{
     .sec-1{
       max-width: 319px;
       width: 100%;
-      padding-top: 900px;
       padding-bottom: 600px;
+      padding-top: 5000px;
     }
 
     .abt-me{
@@ -1676,7 +1676,7 @@ footer{
       flex-direction: column;
       max-width: 319px;
       width: 100%;
-      min-height: 900px;
+      height: 900px;
     }
 
     .hm{
@@ -1797,4 +1797,130 @@ footer{
     width: 319px;
   }
 
+  .sec-6{
+    height: ;
   }
+
+  .container {
+    display: grid;
+    grid-template-areas:
+        "html"
+        "css"
+        "javascript"
+        "htmljs"
+        "htmlcss"
+        "boostrap";
+    grid-template-columns: 300px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+}
+
+.container-1{
+  flex-direction: column;
+}
+
+#myBtnContainer{
+  margin: auto;
+}
+
+.container{
+  margin: auto;
+}
+
+.sec-6 h1{
+  font-size: 2.5em;
+}
+
+.sec-7{
+  max-width: 319px;
+}
+
+.articles{
+  max-width: 319px;
+  margin: 0;
+}
+
+.article-1{
+  max-width: 319px;
+  flex-direction: column;
+  margin: 0;
+}
+
+.article-2{
+  max-width: 319px;
+  flex-direction: column-reverse;
+  margin: 0;
+}
+
+.d1 p{
+  max-width: 250px;
+}
+
+.d1{
+  width: 349px;
+  min-width: unset;
+}
+
+.d2{
+  height: 700px;
+  padding-left: 25px;
+}
+
+.date,
+.date-2{
+  height: 210px;
+}
+
+.date h1,
+.date-2 h1{
+  rotate: unset;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.image-div,
+.image-div-1,
+.image-div-2{
+  display: none;
+}
+
+.title{
+  justify-content: center;
+}
+
+.title h1{
+  font-size: 2.5em;
+}
+
+.sponsors{
+  flex-direction: column;
+}
+
+.sponsor{
+  display: flex;
+  justify-content: center;  
+}
+
+.sponsor img{
+  top: 11070px;
+}
+
+.sponsors :nth-child(2) img{
+  top: 11280px;
+}
+
+.sponsors :nth-child(3) img{
+  top: 11600px;
+  left: 110px;
+}
+
+.sponsors :nth-child(4) img{
+  top: 11820px;
+  left: 75px;
+}
+
+.sponsors :nth-child(5) img{
+  top: 12115px;
+  left: 110px;
+}
+
+}
