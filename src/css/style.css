@@ -1599,7 +1599,7 @@ footer{
       max-width: 319px;
       width: 100%;
       padding-bottom: 600px;
-      padding-top: 5000px;
+      padding-top: 4300px;
     }
 
     .abt-me{
@@ -1901,25 +1901,25 @@ footer{
 }
 
 .sponsor img{
-  top: 11070px;
+  top: 10710px;
 }
 
 .sponsors :nth-child(2) img{
-  top: 11280px;
+  top: 10930px;
 }
 
 .sponsors :nth-child(3) img{
-  top: 11600px;
+  top: 11250px;
   left: 110px;
 }
 
 .sponsors :nth-child(4) img{
-  top: 11820px;
+  top: 11470px;
   left: 75px;
 }
 
 .sponsors :nth-child(5) img{
-  top: 12115px;
+  top: 11755px;
   left: 110px;
 }
 
