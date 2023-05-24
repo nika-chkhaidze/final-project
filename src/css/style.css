@@ -1599,7 +1599,7 @@ footer{
       max-width: 319px;
       width: 100%;
       padding-bottom: 600px;
-      padding-top: 4300px;
+      padding-top: 4100px;
     }
 
     .abt-me{
@@ -1797,10 +1797,6 @@ footer{
     width: 319px;
   }
 
-  .sec-6{
-    height: ;
-  }
-
   .container {
     display: grid;
     grid-template-areas:
@@ -1921,6 +1917,51 @@ footer{
 .sponsors :nth-child(5) img{
   top: 11755px;
   left: 110px;
+}
+
+.sec-9{
+  max-width: 320px;
+  width: 100%;
+}
+
+.form-1{
+  display: grid;
+  grid-template-areas: 
+  "yourname"
+  "emailadress"
+  "yourwebsite"
+  "message"
+  "button";
+  grid-template-columns: 300px;
+  grid-template-rows: auto;
+  max-width: 320px;
+}
+
+.form{
+  min-width: unset;
+}
+
+.contact-us h1{
+  font-size: 2em;
+}
+
+.contact-us p{
+  font-size: .7em;
+  margin: auto;
+}
+
+.footer{
+  max-width: 320px;
+}
+
+.p p{
+  margin: auto;
+  font-size: .9em;
+}
+
+.copy-right{
+  max-width: 320px;
+  margin: auto;
 }
 
 }
