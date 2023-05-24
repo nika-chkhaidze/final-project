@@ -246,4 +246,6 @@ window.addEventListener('scroll', function(){
         body: JSON.stringify(data)
        }).then(res => res.json())
          .then(data => console.log(data));
+
+         alert("Message has been sent successfully")
   });
