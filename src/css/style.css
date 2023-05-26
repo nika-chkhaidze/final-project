@@ -62,6 +62,12 @@
     width: 0;
   }
   
+  .nika-1{
+    width: 320px;
+    height: 860px;
+    object-fit: cover;
+  }
+  
   @keyframes load {
     0% { width: 0; }
     100% { width: 100%; }
@@ -1969,6 +1975,16 @@ footer{
 .copy-right{
   max-width: 320px;
   margin: auto;
+}
+
+.nika-1{
+  height: 560px;
+  width: 320px;
+  object-fit: cover;
+}
+
+#slider{
+  width: 320px;
 }
 
 }
