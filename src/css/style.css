@@ -159,7 +159,7 @@ ul#move {
 
 
 ul#move li {
-	transition: 0.6s;
+	transition: 3s;
 	min-width: 100%;
 	color: white;
 	list-style-type: none;
@@ -1590,16 +1590,14 @@ footer{
 @media screen and (width < 320px) {
 
     body{
-      overflow-x: hidden;
-      max-width: 319px;
-      width: 100%;
+      width: 319px;
     }
      
     .sec-1{
       max-width: 319px;
       width: 100%;
       padding-bottom: 600px;
-      padding-top: 4150px;
+      padding-top: 4650px;
     }
 
     .abt-me{
@@ -1607,6 +1605,10 @@ footer{
       font-size: .5em;
       right: -140px;
       top: -10px;
+    }
+
+    .slider .img{
+      left: unset ;
     }
 
     .abt-me :nth-child(2){
@@ -1698,8 +1700,13 @@ footer{
       justify-content: center;
     }
 
+    .img-nc{
+      width: 319px;
+      padding: 100px 0;
+    }
+
     .sec-3{
-      margin-top: 150px;
+      margin-top: 625px;
       width: 323px;
       flex-direction: column;
       gap: 0;
@@ -1897,25 +1904,25 @@ footer{
 }
 
 .sponsor img{
-  top: 10710px;
+  top: 11235px;
 }
 
 .sponsors :nth-child(2) img{
-  top: 10930px;
+  top: 11450px;
 }
 
 .sponsors :nth-child(3) img{
-  top: 11250px;
+  top: 11760px;
   left: 110px;
 }
 
 .sponsors :nth-child(4) img{
-  top: 11470px;
+  top: 12000px;
   left: 75px;
 }
 
 .sponsors :nth-child(5) img{
-  top: 11755px;
+  top: 12280px;
   left: 110px;
 }
 
